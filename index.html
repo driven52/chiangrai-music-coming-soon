@@ -42,7 +42,6 @@
             display: flex;
             justify-content: center;
             margin-bottom: 20px;
-            position: relative;
         }
 
         .instruments img {
@@ -158,122 +157,6 @@
           }
         }
 
-        .equilizer {
-          height: 100px;
-          width: 200px;
-          transform: rotate(180deg);
-          position: absolute;
-          bottom: -8px;
-          opacity: 0.8;
-        }
-
-        .bar {
-          fill: rgb(41, 41, 41);
-          width: 18px;
-          animation: equalize 3s 0s infinite;
-        }
-
-        .bar:nth-child(1) {
-          animation-delay: -1.9s;
-        }
-
-        .bar:nth-child(2) {
-          animation-delay: -2s;
-        }
-
-        .bar:nth-child(3) {
-          animation-delay: -2.3s;
-        }
-
-        .bar:nth-child(4) {
-          animation-delay: -2.4s;
-        }
-
-        .bar:nth-child(5) {
-          animation-delay: -2.1s;
-        }
-
-        @keyframes equalize {
-          0% {
-            height: 60px;
-          }
-          4% {
-            height: 50px;
-          }
-          8% {
-            height: 40px;
-          }
-          12% {
-            height: 30px;
-          }
-          16% {
-            height: 20px;
-          }
-          20% {
-            height: 30px;
-          }
-          24% {
-            height: 40px;
-          }
-          28% {
-            height: 10px;
-          }
-          32% {
-            height: 40px;
-          }
-          36% {
-            height: 60px;
-          }
-          40% {
-            height: 20px;
-          }
-          44% {
-            height: 40px;
-          }
-          48% {
-            height: 70px;
-          }
-          52% {
-            height: 30px;
-          }
-          56% {
-            height: 10px;
-          }
-          60% {
-            height: 30px;
-          }
-          64% {
-            height: 50px;
-          }
-          68% {
-            height: 60px;
-          }
-          72% {
-            height: 70px;
-          }
-          76% {
-            height: 80px;
-          }
-          80% {
-            height: 70px;
-          }
-          84% {
-            height: 60px;
-          }
-          88% {
-            height: 50px;
-          }
-          92% {
-            height: 60px;
-          }
-          96% {
-            height: 70px;
-          }
-          100% {
-            height: 80px;
-          }
-        }
-
 
     </style>
 </head>
@@ -284,16 +167,6 @@
       </h1>
       <p><strong>เว็ปไซต์อยู่ระหว่างปรับปรุง เตรียมพบกับเว็บไซต์เต็บรูปแบบ เร็วๆ นี้</strong></p>
       <div class="instruments">
-          <svg xmlns="http://www.w3.org/2000/svg" class="equilizer" viewBox="0 0 128 128">
-            <g>
-              <title>Audio Equilizer</title>
-              <rect class="bar" transform="translate(0,0)" y="15"></rect>
-              <rect class="bar" transform="translate(25,0)" y="15"></rect>
-              <rect class="bar" transform="translate(50,0)" y="15"></rect>
-              <rect class="bar" transform="translate(75,0)" y="15"></rect>
-              <rect class="bar" transform="translate(100,0)" y="15"></rect>
-            </g>
-          </svg>
           <img class="guitar" src="coming.png" alt="Guitar">
       </div>
 
