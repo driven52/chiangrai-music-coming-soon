@@ -12,7 +12,6 @@
             height: 100%;
             margin: 0;
             font-family: 'Noto Sans Thai', sans-serif;
-            background: #ffffff;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -29,12 +28,12 @@
         h1 {
             font-size: 2.5em;
             margin-bottom: 0.5em;
-            color: #333333;
+            color: rgb(36, 36, 36);
         }
 
         p {
             font-size: 1em;
-            color: #666666;
+            color: rgb(36, 36, 36);
             margin-bottom: 20px;
         }
 
@@ -42,10 +41,11 @@
             display: flex;
             justify-content: center;
             margin-bottom: 20px;
+            margin-top: 30px;
         }
 
         .instruments img {
-            width: 50%;
+            width: 100%;
             height: auto;
             border-radius: 10px;
             transition: transform 0.3s ease;
@@ -64,14 +64,14 @@
         .social-media a {
             margin: 0 10px;
             font-size: 24px; /* Adjust size as needed */
-            color: #333333; /* Adjust color as needed */
+            color: rgb(36, 36, 36); /* Adjust color as needed */
             text-decoration: none;
         }
 
         .contact-details {
             margin-top: 20px;
             font-size: 1em;
-            color: #666666;
+            color: rgb(36, 36, 36);
         }
 
         /* Style for animated notes */
@@ -79,7 +79,7 @@
             font-size: 2em; /* Size of the musical notes */
             position: absolute;
             opacity: 0.7;
-            color: #333; /* Color of the musical notes */
+            color: rgb(36, 36, 36); /* Color of the musical notes */
             animation: float 5s infinite;
         }
 
@@ -96,22 +96,21 @@
         }
         .note:nth-child(2) {
             left: 30%;
-            top: 100px;
+            top: 40px;
             animation-delay: 2s;
         }
         .note:nth-child(3) {
             right: 30%;
-            top: 150px;
+            top: 10px;
             animation-delay: 4s;
         }
         .note:nth-child(4) {
             right: 50%;
-            top: 150px;
+            top: 20px;
             animation-delay: 1s;
         }
 
         .guitar {
-          background-color: #fff;
           width: 50px;
           height: 50px;
           position: relative;
@@ -157,42 +156,73 @@
           }
         }
 
+.phone {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.phone ul {
+  padding: 0;
+  margin: 0 10px;
+  text-align: left;
+}
+
+.phone li {
+  list-style: none;
+}
 
     </style>
 </head>
 <body>
-  <div class="container">
-      <h1 href="" class="typewrite" data-period="2000" data-type='[ "Coming Soon ...", "Chiang Rai Music ...", "เชียงรายมิวสิค ..." ]'>
-        <span class="wrap"></span>
-      </h1>
-      <p><strong>เว็ปไซต์อยู่ระหว่างปรับปรุง เตรียมพบกับเว็บไซต์เต็บรูปแบบ เร็วๆ นี้</strong></p>
-      <div class="instruments">
-          <img class="guitar" src="coming.png" alt="Guitar">
-      </div>
+  <!-- <div class="bg-image"></div>
+  <div class="overlay"></div>
+  <div class="content"> -->
+    <div class="container">
+        <h1 href="" class="typewrite" data-period="2000" data-type='[ "Coming Soon ...", "Chiang Rai Music ...", "เชียงรายมิวสิค ..." ]'>
+          <span class="wrap"></span>
+        </h1>
+        <p><strong>เว็ปไซต์อยู่ระหว่างปรับปรุง เตรียมพบกับเว็บไซต์เต็บรูปแบบ เร็วๆ นี้</strong></p>
+        <div class="instruments">
+            <img src="cover.jpeg" alt="Guitar">
+        </div>
 
-      <div class="social-media">
-        
-          <a href="https://www.facebook.com/yourFacebookPage" target="_blank">
-            <img style="width: 30px;" src="./facebook-circle-fill.svg" alt="">
-          </a>
-          <a href="https://www.facebook.com/yourFacebookPage" target="_blank">
-            <img style="width: 25px;" src="./tiktok-fill.svg" alt="">
-          </a>
-          <a href="https://www.youtube.com/yourYoutubeChannel" target="_blank">
-            <img style="width: 30px;" src="./youtube-fill.svg" alt="">
-          </a>
-      </div>
+        <div class="social-media">
+            <a href="https://lin.ee/DqoNaEv" target="_blank">
+              <img style="width: 30px;" src="./line-fill.svg" alt="">
+            </a>
+            <a href="https://www.facebook.com/chiangraimusic" target="_blank">
+              <img style="width: 30px;" src="./facebook-circle-fill.svg" alt="">
+            </a>
+            <a href="https://www.youtube.com/@chiangraimusic8753" target="_blank">
+              <img style="width: 30px;" src="./youtube-fill.svg" alt="">
+            </a>
+            <a href="https://maps.app.goo.gl/XR45NbUZtNN7Y31d8" target="_blank">
+              <img style="width: 20px;" src="./google-maps-fill.svg" alt="">
+            </a>
+        </div>
 
-      <div class="contact-details">
-          <p>ติดต่อเราได้ที่: <a href="mailto:contact@email.com">contact@email.com</a></p>
-          <p>เบอร์โทร: 086-231-5948</p>
-      </div>
-  </div>
+        <div class="contact-details">
+            <div>ติดต่อเราได้ที่: <a href="mailto:chiangraimusic@hotmail.com">chiangraimusic@hotmail.com</a></div>
+            <div class="phone">
+              <div>
+                เบอร์โทร:
+              </div>
+              <ul>
+                <li><a href="tel:053-711014">053-711014</a></li>
+                <li><a href="tel:064-5596546">064-5596546</a></li>
+                <li><a href="tel:064-5569646">064-5569646</a></li>
+                <li><a href="tel:064-5565964">064-5565964</a></li>
+              </ul>
+            </div>
+        </div>
+    </div>
 
-  <!-- Animated musical notes -->
-  <div class="note">♪</div>
-  <div class="note">♫</div>
-  <div class="note">♬</div>
+    <!-- Animated musical notes -->
+    <div class="note">♪</div>
+    <div class="note">♫</div>
+    <div class="note">♬</div>
+  <!-- </div> -->
 </body>
 
 <script>
@@ -249,7 +279,7 @@
         // INJECT CSS
         var css = document.createElement("style");
         css.type = "text/css";
-        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid grey}";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid rgb(36, 36, 36)}";
         document.body.appendChild(css);
     };
 </script>
